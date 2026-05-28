@@ -3,25 +3,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
-    avatar: "/professional-woman-scientist.png",
-    content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
-  },
-  {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "Максим Орлов",
+    role: "Участник программы «Боец», 6 месяцев",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "За полгода сбросил 14 кг и впервые в жизни подтянулся 20 раз. Hero League — это не просто зал, это стиль жизни.",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
-    avatar: "/asian-woman-tech-developer.jpg",
+    name: "Анна Соколова",
+    role: "Участница программы «Герой», 1 год",
+    avatar: "/professional-woman-scientist.png",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "Вышла на первые соревнования через год после старта. Тренеры верили в меня даже тогда, когда я сама не верила.",
+  },
+  {
+    name: "Дмитрий Васин",
+    role: "Участник программы «Новичок» → «Герой»",
+    avatar: "/placeholder-user.jpg",
+    content:
+      "Начинал с нуля — не мог отжаться 5 раз. Сейчас готовлюсь к марафону. Hero League меняет людей.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Реальные результаты</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Истории людей, которые выбрали Hero League и изменили свою жизнь
           </p>
         </div>
 
